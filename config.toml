@@ -1,0 +1,49 @@
+baseurl = "https://www.codingwithcarl.com"
+title = "Coding with Carl"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  author = "Carl Zimmerman"
+  info = "Software & DevOps"
+  description = ""
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+
+  favicon_16 = "images/favicon.ico"
+  favicon_32 = "images/favicon.ico"
+  favicon_180 = "images/favicon.ico"
+
+  footercontent = ""
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2020
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/codingwithcarl/"
+
+# Menu links
+[[menu.main]]
+name = "Projects"
+weight = 1
+url = "projects/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
